@@ -10,7 +10,7 @@ import seaborn as sns
 # Load the dataset
 st.title("EV Charging Station Optimization")
 
-df = pd.read_csv(r'C:\Users\ELCOT\Desktop\gkproject\station_data_dataverse.csv')
+df = pd.read_csv(r'station_data_dataverse.csv')
 
 # checking columns
 required_columns = ['locationId', 'reportedZip', 'kwhTotal', 'sessionId']
