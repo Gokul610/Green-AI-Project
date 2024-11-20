@@ -10,7 +10,7 @@ import seaborn as sns
 import pickle
 import joblib
 # load dataset
-df = pd.read_csv(r'C:\Users\ELCOT\Desktop\gkproject\station_data_dataverse.csv')
+df = pd.read_csv(r'station_data_dataverse.csv')
 print("Dataset:")
 print(df.head())
 print("\nDataset Info:")
